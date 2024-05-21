@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Photo Gallery</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+
+    body {
+    background-image: url(https://images.pexels.com/photos/839845/pexels-photo-839845.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    background-color: black
+}
+
+header {
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color:black;
+    padding-top: 10px;
+    padding-bottom:5px;
+}
+
+section {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: center;
+    column-gap: 25px;
+    row-gap: 25px;
+}
+.introduction { 
+    opacity: 1;
+    border: 3px solid white;
+    border-radius: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    width: 1200px;
+    text-align: center;
+    margin: auto;
+    margin-top:30px;
+    background-color:rgb(153, 196, 155);
+}
+
+.tagaytay {
+    opacity: 0.8;
+    border: 3px solid white;
+    border-radius: 30px;
+    background-color: rgb(153, 196, 155);
+    padding-left: 15px;
+    padding-right: 15px;
+   width: 300px;
+    height: 275px;
+}
+
+.tagaytay-img { 
+    opacity: 0.9;
+    width: 300px;
+    height: 275px;
+    border: 3px solid white;
+    border-radius: 30px;
+    background-image: url(https://media.istockphoto.com/id/476581894/photo/lake-taal-landscape-and-mount-binintiang-malaki-luzon-philippines.jpg?s=612x612&w=0&k=20&c=RiEEGOdShDuBKUTP0dTQ7SbE1dmx_LW8Cf8IHXRK_Bk=);
+    background-repeat: repeat;
+    background-size: cover;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.lakawon {
+    opacity: 0.8;
+    border: 3px solid white;
+    border-radius: 30px;
+    background-color: rgb(153, 196, 155);
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 300px;
+    height: 275px;
+}
+
+.lakawon-img {
+    opacity: 0.9;
+    border: 3px solid white;
+    border-radius:30px;
+    padding-left: 10px;
+    background-image: url(https://outoftownblog.com/wp-content/uploads/2017/12/Lakawon-Island-Budget-Travel-Guide-photo-by-Louie-Martinez-via-Unsplash.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 300px;
+    height: 275px;
+}
+
+.coron {
+    opacity: 0.8;
+    border: 3px solid white;
+    border-radius: 30px;
+    background-color: rgb(153, 196, 155);
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 300px;
+    height: 275px;
+}
+
+.coron-img {
+    opacity: 0.9;
+    border: 3px solid white;
+    border-radius: 30px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/16/Straight_out_of_a_dream.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    padding-left: 15px;
+    padding-right: 15px;
+   width: 300px;
+    height: 275px;
+}
+
+footer {
+    color: white;
+}
+.sources { 
+    opacity: 0.8;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 30px;
+    background-color:rgb(153, 196, 155);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+    width: 1200px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.button1 {
+        background-color: #000000;
+        color:rgb(163,145,147);
+
+    }
+
+    .navbar {
+        background-color:rgb(163,145,147); 
+    }
+
+    .logo {
+      padding:5px;
+    }
+</style>
+</head>
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-sm"> 
+     <div class="container-fluid">
+       <a><img class="logo" src="my logo.jpeg" class="logo" width=75px></a>
+       <div class="collapse navbar-collapse" id="navbar">
+    <ul class="navbar-nav me-auto">
+       <li><a class="nav-link" href="page2.html">First Quarter</a></li>
+       <li><a class="nav-link" href="page3.html">Second Quarter</a></li>
+       <li><a class="nav-link" href="page4.html">Third Quarter</a></li>
+       <li><a class="nav-link" href="page5.html">What's Next?</a></li>
+   </ul>
+   <form  class="d-flex">
+       <input class="form-control me-3" type="text" placeholder="Enter a keyword">
+      <button class="btn button1" type="button">Search</button>
+  </form>
+    </div>
+</div>
+  </nav>
+
+  <header>
+    <h1>PHOTO GALLERY</h1><hr/>
+     <div class=introduction>
+         <p> The Philippines is an archipalegic country found in Southeast Asia. It is often regarded as one of the most beautiful countries in the world with its vast landscapes and beautiful waters.</p>
+        </div>
+  </header>   
+    <section>
+      <div class=tagaytay>
+           <h1>Tagaytay</h1>
+           <p> Tagaytay is quite popular in scenic beauty and the comfort its weather provides. Being perched at a higher altitude, you can view the famous Taal Lake and the Taal volcano.</p>
+      </div>
+           <div class=coron-img></div>
+      <div class=lakawon>
+            <h1>Lakawon</h1>
+            <p>Lakawon Island is known for its white-sand beaches, clear turquoise waters, and relaxing atmosphere. It is also less crowded than the more popular beaches in the Philippines, giving visitors a quieter visit.</p>
+      </div>
+           <div class=tagaytay-img></div>
+      <div class=coron>
+            <h1>
+                Coron Island
+            </h1>
+            <p>Being the third largest island, Coron is one of the best places to visit in the Philippines. Towards the centre of the island, you will find limestone peaks of several heights, with caves underneath which one can explore further to have a day full of adventures.</p>
+       </div>
+            <div class=lakawon-img></div>
+        </div>
+    </section>
+ <footer>
+       <div class=sources>
+            <h1>Sources</h1>
+            <p>55 places to visit in Philippines. (n.d.). <a href=https://www.thrillophilia.com/. https://www.thrillophilia.com/places-to-visit-in-philippines>55 places to visit in Philippines. (n.d.). https://www.thrillophilia.com/. https://www.thrillophilia.com/places-to-visit-in-philippines</a></p>
+        </div>
+ </footer>
+</body>
+</html>
